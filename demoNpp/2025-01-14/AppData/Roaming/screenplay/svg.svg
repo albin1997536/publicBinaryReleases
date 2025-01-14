@@ -1,0 +1,5 @@
+<svg width="auto" height="LANGD" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="COLORGOESHERE" />
+
+    <text x="auto" y="auto" font-family="Courier New" font-size="10" transform="rotate(90 3,3)" fill="black"  >TEXTGOESHERE</text>
+</svg>
