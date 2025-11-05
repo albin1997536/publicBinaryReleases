@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>TITLEGOESHERE</title>
+<meta charset="utf-8">
+
+    <style>
+
+
+
+
+        /* --------------------------bind------------------------------------------------- */
+BINDS
+
+        /* -------------------------- grid construction ------------------------------------------------- */
+
+BEHOLLARE
+
+
+        /* -------------------------- unchanging ------------------------------------------------- */
+
+        .main-container {
+            background-color: white;
+        }
+		
+		
+		
+		
+        html body{
+            background-color: white;
+			
+        }
+		
+		
+
+        p {
+            white-space: pre-wrap;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .grid-container > div {
+            font-size: 1em;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: left;
+            white-space: pre-wrap;
+            tab-size: 39px; /* fix the size of \t to make ascii things line up the same as in npp */
+
+        }
+
+        /* The first div */
+        .left {
+            float: left; /* Float the div to the left */
+            width: 512px; /* Occupy half of the screen */
+            background-color: white;
+            height: 100vh; /* Make it full height of the screen */
+        }
+
+        /* The second div */
+        .right {
+            float: left; /* Float the div to the left */
+            position: absolute;
+            margin-left: 260px;
+            background-color: white;
+            height: 100vh; /* Make it full height of the screen */
+        }
+
+
+
+
+        /* --------------------------img------------------------------------------------- */
+
+        img {
+            margin-top: 1px;
+            position: absolute;
+            left: 0;
+            width: 256px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.918), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			  border-radius: 15px;
+			  border-style: solid;
+        }
+
+
+img:hover{
+            -webkit-box-shadow: 0px 0px 77px 87px rgba(0,0,0,0.86);
+-moz-box-shadow: 0px 0px 77px 87px rgba(0,0,0,0.86);
+box-shadow: 0px 0px 77px 87px rgba(0,0,0,0.86);
+}
+
+
+        .ribbonInvisible {
+            /* background: linear-gradient(to bottom, #00c9a1 1%, #00ff00 1%); */
+            background-size: 20px 20px;
+            background-repeat: repeat;
+            background-color: rgba(0, 0, 255, 0.404);
+            width: 44em;
+            /* Set a specific width for the ribbon */
+            height: 2px;
+            /* margin-top: 6em; */
+            z-index: 99;
+            position: absolute;
+        }
+		
+		
+
+        .ribbonInvisible:hover {
+			z-index:99999;
+            box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 yellow;
+        }		
+		
+		
+		
+
+        /* LINENUMBER */
+        ln  
+        {
+            background-color: lightgray;
+			color:gray;
+			-webkit-user-select: none; /* Safari */        
+			-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+			user-select: none; /* Standard */
+		}
+        
+		/* LINENUMBER */
+        gr  
+        {
+            background-color: lightgray;
+		}
+
+
+
+       /* --------------------------------SYNTAX HIGHLIGHTING MD ---------------------------------- */
+        
+        /* MARKDOWN HEADER */
+        md 
+        {
+            color: orange;
+            font-weight: bold;
+        }
+
+
+        /* IMAGE LINK */
+
+        /* CAMERA DESCRIPTION */
+        CD 
+        {
+            color: darkblue;
+            font-weight: bold;
+        }
+
+        /* DIALOG */
+        dia 
+        {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+
+        /* ACTION DESCRIPTION */
+        AD 
+        {
+            color:teal;
+        }
+
+        /* COMMENTED OUT LINE */
+        CC 
+        {
+			text-decoration: line-through;
+			color:#82da9c; 
+        }
+        /* REF NUMBER */
+
+        /* SCENE NUMBER */
+        SC 
+        {
+            background-color: crimson;
+			color:white;
+        }
+        /* LOCATION HEADER */
+        LOC 
+        {
+            background-color:#e0f3f5;
+        }
+		/* REFRENCE BOX */
+        rb 
+        {
+            background-color:#bcb0f8;
+			font-style: italic;
+			color:white;
+			  border-radius: 15px;
+
+
+        }
+        /* IS_SHORT  */
+
+
+        /* ----------------------------------------------------------------------------------------- */
+
+
+
+
+        /* ------------------------------------------------------------------------------- */
+        /* --------------------------html------------------------------------------------- */
+        /* ------------------------------------------------------------------------------- */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="imgTab">
+
+
+
+BILDER
+
+
+            </div>
+        </div>
+HOGER
+        </div>
+    </div>
+</body>
+</html>
