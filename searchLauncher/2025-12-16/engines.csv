@@ -1,0 +1,12 @@
+https://www.bing.com/search?q=%s,Bing,b
+https://search.yahoo.com/search?p=%s,Yahoo!,y
+https://duckduckgo.com/?q=%s,DuckDuckGo,d
+https://www.ecosia.org/search?q=%s,Ecosia,e
+https://www.startpage.com/search?q=%s,Startpage,s
+https://en.wikipedia.org/wiki/Special:Search?search=%s,Wikipedia,w
+https://www.google.com/search?q=%s,Google,g
+https://www.youtube.com/results?search_query=%s,YouTube,yt
+https://www.google.com/search?sca_esv=18cd3dcba5fc08bf&udm=50&fbs=AIIjpHw2KGh6wpocn18KLjPMw8n50pz4cMzH2hAgnjmBbKVzjzZr1xyblLCWznAOv-YYbQVO1VEzh-UdJRZHUl-V8CKBjFq2cOC7-OxMYWwrHgcdRz-kbjoNkmcLwBGqJryaG1d58Ihlebqq2GPJoqGD4hUSnUGY9wcVpPMfoNqmzG2h2m3Y11VoLS2MuRqE_uUbOxLb8tMWlxwy-GPm7idUnvSJ1dR2aA&aep=1&ntc=1&sa=X&ved=2ahUKEwjHvMTA9aaRAxUYEhAIHenDFuAQoo4PegYIAQgAEAA&biw=1639&bih=873 https://www.google.com/search?sca_esv=18cd3dcba5fc08bf&udm=50&fbs=AIIjpHw2KGh6wpocn18KLjPMw8n50pz4cMzH2hAgnjmBbKVzjzZr1xyblLCWznAOv-YYbQVO1VEzh-UdJRZHUl-V8CKBjFq2cOC7-OxMYWwrHgcdRz-kbjoNkmcLwBGqJryaG1d58Ihlebqq2GPJoqGD4hUSnUGY9wcVpPMfoNqmzG2h2m3Y11VoLS2MuRqE_uUbOxLb8tMWlxwy-GPm7idUnvSJ1dR2aA&aep=1&ntc=1&sa=X&ved=2ahUKEwjHvMTA9aaRAxUYEhAIHenDFuAQoo4PegYIAQgAEAA&biw=1639&bih=873&q=%s,Google AI,gai
+https://chat.openai.com/?q=%s,GPT,gpt
+https://www.qwant.com/?q=%s,Qwant,q
+https://translate.google.as/?sl=auto&tl=ja&text=%20%s&op=translate,Google Translate,tra
