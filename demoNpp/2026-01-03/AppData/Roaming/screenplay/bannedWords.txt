@@ -1,0 +1,4 @@
+# the plugin will warn you if you try to AI rephrase any of these words. each word gets its own single line. No " nor , The first row (where this line is) will always be ignored.
+asshole
+ass
+wanker
