@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Timestamp Markdown",
+  "version": "1.0",
+  "description": "Generate a markdown line with the current YouTube timestamp, a user label, and a timestamped link.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://youtu.be/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YT Timestamp Markdown",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*", "*://youtu.be/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

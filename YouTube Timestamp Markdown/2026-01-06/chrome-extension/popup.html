@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>YouTube Timestamp Markdown</title>
+    <style>
+      body { font-family: Arial, sans-serif; width: 300px; padding: 10px; }
+      input[type="text"] { width: 100%; box-sizing: border-box; padding: 6px; }
+      button { margin-top: 8px; padding: 6px 10px; }
+      textarea { width: 100%; height: 80px; margin-top: 8px; }
+    </style>
+  </head>
+  <body>
+    <label for="label">Label:</label>
+    <input id="label" type="text" placeholder="Enter label..." />
+    <button id="generate">Generate Markdown</button>
+    <button id="copy">Copy to Clipboard</button>
+    <textarea id="output" readonly placeholder="Result will appear here"></textarea>
+    <script src="popup.js"></script>
+  </body>
+</html>
